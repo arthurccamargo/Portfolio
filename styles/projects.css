@@ -2,3 +2,38 @@
     padding: 32px 40px;
     grid-column: 1 / 3; /*column 1 to column 3*/
 }
+
+
+.project__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+
+    margin-top: 16px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+    width: 100%;
+
+    overflow: hidden;
+    text-decoration: none;
+
+    border-radius: 6px;
+    border: 1px solid var(--background-body);
+}
+
+.project picture {
+    width: 100%;
+    height: 220px;
+}
+
+.project picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
