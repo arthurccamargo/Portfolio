@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Memory Game",
+      "image": "./assets/memorygame.png",
+      "tags": ["Java", "Maven", "CSS", "SQLite"],
+      "link": "https://github.com/arthurccamargo/Memory-Game"
+    },
+      {
+      "name": "Maze Bank",
+      "image": "./assets/mazebank.png",
+      "tags": ["Java", "Maven", "Spring Boot", "Spring Data JPA", "MySQL", "Migrations-Flyway", "Padrão REST"],
+      "link": "https://github.com/arthurccamargo/MazeBank"
+    },
+      {
+      "name": "FCG",
+      "image": "./assets/fcg.png",
+      "tags": ["C", "C++", "3D"],
+      "link": "https://github.com/arthurccamargo/fcg"
+    },
+    {
+        "name": "WebService",
+        "image": "./assets/webservice.png",
+        "tags": ["Java", "Maven", "Spring Boot", "Spring Data JPA", "Database H2"],
+        "link": "https://github.com/arthurccamargo/WebService"
+      }
+  ]
