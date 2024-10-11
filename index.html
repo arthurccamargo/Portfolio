@@ -8,11 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href="./styles/global.css">
+    
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Script AOS (Animations) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <div class="app">
-        <section class="card user">
+        <section 
+        class="card user"
+        data-aos ="fade-right"
+        data-aos-duration ="800"
+        data-aos-easing = "ease-in-out"
+        >
             <picture>
                 <img src="./assets/user.png" alt="">
             </picture>
@@ -30,7 +40,12 @@
             </div>
         </section>
 
-        <section class="card about">
+        <section 
+        class="card about"
+        data-aos ="fade-left"
+        data-aos-duration ="800"
+        data-aos-easing = "ease-in-out"
+        >
             <h2 class="subtitle">Sobre</h2>
 
             <p>Curso Ciência da Computação na Universidade Federal do Rio Grande do Sul (UFRGS), tenho projetos práticos em C, C++, Java, HTML, CSS e JavaScript. </p>
@@ -38,7 +53,12 @@
             <p>Estou procurando novos desafios na área da tecnologia.</p>
         </section>
 
-        <section class="card projects">
+        <section 
+        class="card projects"
+        data-aos ="fade-up"
+        data-aos-duration ="800"
+        data-aos-easing = "ease-in-out"
+        >
             <h2 class="subtitle">Projetos</h2>
             <div id="project__content"></div>
         </section>
@@ -46,5 +66,9 @@
     </div>
 
     <script src="./scripts/index.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>AOS.init({ once: true })</script>
 </body>
 </html>
